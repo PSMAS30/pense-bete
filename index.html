@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pense-bête — Formations à l'IA générative pour les équipes</title>
+  <meta name="description" content="Pense-bête, organisme de formation fictif : l'IA générative pour le quotidien des équipes non techniques. Applicable dès le lendemain.">
+  <meta name="theme-color" content="#121212">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <!-- Bandeau d'annonce -->
+  <div class="announce">
+    <p>Formations IA générative pour le quotidien des équipes</p>
+    <a class="pill pill--xs" href="#la-pub">Voir la pub de 52&nbsp;s</a>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="#accueil" aria-label="Pense-bête, retour en haut de page">
+        <span class="logo-note" aria-hidden="true">Pense-bête</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        <span>Menu</span>
+      </button>
+
+      <nav class="site-nav" aria-label="Navigation principale">
+        <ul id="menu-principal" class="nav-list">
+          <li><a href="#la-pub">La pub</a></li>
+          <li><a href="#formations">Nos formations</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a class="pill pill--yellow header-cta" href="#contact">Demander le programme</a>
+    </div>
+  </header>
+
+  <main id="contenu" tabindex="-1">
+
+    <!-- Accueil -->
+    <section id="accueil" class="hero" aria-labelledby="titre-accueil">
+      <div class="hero-stars" aria-hidden="true"></div>
+      <div class="container">
+        <h1 id="titre-accueil" class="hero-title">
+          <span class="hero-title-big">L'IA générative va changer votre quotidien.</span>
+          <span class="hero-title-sub">Autant savoir lui parler.</span>
+        </h1>
+
+        <div class="hero-side">
+          <p class="hero-lead">Des formations courtes et concrètes pour les salariés non techniques, construites sur vos vrais dossiers.</p>
+          <div class="hero-actions">
+            <a class="pill pill--yellow pill--lg" href="#formations">Voir nos formations</a>
+            <a class="pill pill--light pill--lg" href="#contact">Nous écrire</a>
+          </div>
+        </div>
+
+        <figure class="video-frame" id="la-pub" tabindex="-1">
+          <div class="video-ratio">
+            <video
+              id="pub-video"
+              src="pense-bete-fr.mp4"
+              controls
+              preload="metadata"
+              playsinline
+              poster="postit.png"
+              aria-describedby="legende-video">
+              Votre navigateur ne lit pas la vidéo.
+              <a href="pense-bete-fr.mp4">Télécharger la vidéo de Pense-bête</a>.
+            </video>
+          </div>
+          <figcaption class="video-caption">
+            <span class="mono">● La pub</span>
+            <span id="legende-video">52 secondes avec notre pense-bête préféré.</span>
+            <span class="lang-switch" role="group" aria-label="Langue de la vidéo">
+              <button type="button" data-lang="fr" aria-pressed="true" lang="fr"><span aria-hidden="true">FR</span><span class="visually-hidden">Version française</span></button>
+              <button type="button" data-lang="en" aria-pressed="false" lang="en"><span aria-hidden="true">EN</span><span class="visually-hidden">English version</span></button>
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- En bref : chiffres -->
+    <section class="section section--dark facts" aria-label="Pense-bête en bref">
+      <div class="container">
+        <p class="mono facts-intro">En bref :</p>
+        <ul class="facts-list" role="list">
+          <li><strong>52&nbsp;s</strong><span>de vidéo pour comprendre</span></li>
+          <li><strong>3</strong><span>formats de formation</span></li>
+          <li><strong>J+1</strong><span>applicable dès le lendemain</span></li>
+          <li><strong>0</strong><span>jargon technique</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Ce qui change -->
+    <section id="changements" class="section" aria-labelledby="titre-changements">
+      <div class="container">
+        <p class="label">01 <span>Au bureau, dès lundi</span></p>
+        <h2 id="titre-changements" class="display">Ce qui change, <em>concrètement</em></h2>
+        <p class="section-intro">Trois gestes du quotidien que l'IA générative rend plus légers. La décision, elle, reste la vôtre.</p>
+
+        <ul class="notes" role="list">
+          <li class="note note--a reveal">
+            <span class="note-num" aria-hidden="true">/1</span>
+            <h3 class="note-title">Résumer le dossier</h3>
+            <p>Quarante pages reçues la veille, une réunion à 10&nbsp;h. Vous arrivez avec l'essentiel en tête et les bonnes questions à poser.</p>
+            <p class="note-sign">Vous relisez, vous décidez.</p>
+          </li>
+          <li class="note note--b reveal">
+            <span class="note-num" aria-hidden="true">/2</span>
+            <h3 class="note-title">Trouver la procédure</h3>
+            <p>Le bon formulaire, la bonne étape, sans déranger un collègue déjà débordé. La réponse arrive en langage clair, avec la source.</p>
+            <p class="note-sign">Vous relisez, vous décidez.</p>
+          </li>
+          <li class="note note--c reveal">
+            <span class="note-num" aria-hidden="true">/3</span>
+            <h3 class="note-title">Rédiger le brouillon</h3>
+            <p>Un compte rendu, une relance, une annonce d'équipe&nbsp;: la page blanche disparaît. Le brouillon se relit, toujours, avant de partir.</p>
+            <p class="note-sign">Vous relisez, vous décidez.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Conviction -->
+    <section id="conviction" class="section section--dark" aria-labelledby="titre-conviction">
+      <div class="container conviction-grid">
+        <div class="conviction-note" aria-hidden="true">
+          <img src="postit.png" alt="" width="1376" height="768" loading="lazy">
+        </div>
+        <div>
+          <p class="label label--dark">02 <span>Notre conviction</span></p>
+          <h2 id="titre-conviction" class="visually-hidden">Notre conviction</h2>
+          <p class="statement" data-words>L'IA ne remplace pas la mémoire du bureau&nbsp;: elle déplace l'effort vers la question à poser. Chaque formation part d'un besoin réel et se termine par un geste que vous refaites dès le lendemain. Et on y apprend autant les limites que les usages.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formations -->
+    <section id="formations" class="section section--dark section--dark-2" aria-labelledby="titre-formations">
+      <div class="container">
+        <p class="label label--dark">03 <span>Trois formats</span></p>
+        <h2 id="titre-formations" class="display display--light">Nos <em>formations</em></h2>
+        <p class="section-intro section-intro--dark">Un même principe pour les trois&nbsp;: on part d'un besoin réel, on repart avec un geste applicable dès le lendemain.</p>
+
+        <div class="offers">
+          <article class="offer" aria-labelledby="offre-1">
+            <div class="offer-top">
+              <span class="offer-num" aria-hidden="true">/01</span>
+              <p class="offer-tag">Une demi-journée</p>
+            </div>
+            <h3 id="offre-1" class="offer-title">Premiers pas</h3>
+            <p class="offer-desc">Découvrir ce que l'IA générative sait faire, et ce qu'elle ne sait pas. On pratique tout de suite, sur des exemples du bureau.</p>
+            <dl class="offer-details">
+              <div><dt>Pour qui</dt><dd>Toute personne qui débute</dd></div>
+              <div><dt>Vous repartez avec</dt><dd>Les bons réflexes et trois usages testés</dd></div>
+            </dl>
+            <a class="pill pill--yellow pill--block" href="#contact" data-offre="Premiers pas">Demander le programme<span class="visually-hidden"> de la formation Premiers pas</span></a>
+          </article>
+
+          <article class="offer" aria-labelledby="offre-2">
+            <div class="offer-top">
+              <span class="offer-num" aria-hidden="true">/02</span>
+              <p class="offer-tag">Une journée</p>
+            </div>
+            <h3 id="offre-2" class="offer-title">Au quotidien</h3>
+            <p class="offer-desc">Partir de vos propres cas d'usage, les tester ensemble et repartir avec des consignes prêtes à resservir.</p>
+            <dl class="offer-details">
+              <div><dt>Pour qui</dt><dd>Celles et ceux qui ont déjà essayé</dd></div>
+              <div><dt>Vous repartez avec</dt><dd>Vos consignes, rodées sur vos dossiers</dd></div>
+            </dl>
+            <a class="pill pill--yellow pill--block" href="#contact" data-offre="Au quotidien">Demander le programme<span class="visually-hidden"> de la formation Au quotidien</span></a>
+          </article>
+
+          <article class="offer" aria-labelledby="offre-3">
+            <div class="offer-top">
+              <span class="offer-num" aria-hidden="true">/03</span>
+              <p class="offer-tag">Deux jours</p>
+            </div>
+            <h3 id="offre-3" class="offer-title">Référent IA d'équipe</h3>
+            <p class="offer-desc">Devenir la personne qui aide les collègues à démarrer, répond aux questions et partage les bonnes pratiques.</p>
+            <dl class="offer-details">
+              <div><dt>Pour qui</dt><dd>Managers, RH, relais volontaires</dd></div>
+              <div><dt>Vous repartez avec</dt><dd>Un kit pour accompagner votre équipe</dd></div>
+            </dl>
+            <a class="pill pill--yellow pill--block" href="#contact" data-offre="Référent IA d'équipe">Demander le programme<span class="visually-hidden"> de la formation Référent IA d'équipe</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Méthode -->
+    <section id="methode" class="section" aria-labelledby="titre-methode">
+      <div class="container">
+        <p class="label">04 <span>Notre méthode</span></p>
+        <h2 id="titre-methode" class="display"><em>Du besoin</em> au geste du lendemain</h2>
+        <p class="section-intro">Chaque formation suit le même fil, en quatre étapes.</p>
+
+        <ol class="steps" role="list">
+          <li class="step">
+            <span class="step-num" aria-hidden="true">01</span>
+            <h3>Partir d'un besoin</h3>
+            <p>Une tâche réelle de votre quotidien, pas un exemple de manuel.</p>
+          </li>
+          <li class="step">
+            <span class="step-num" aria-hidden="true">02</span>
+            <h3>Pratiquer</h3>
+            <p>Sur vos propres dossiers, avec des consignes simples.</p>
+          </li>
+          <li class="step">
+            <span class="step-num" aria-hidden="true">03</span>
+            <h3>Garder la main</h3>
+            <p>Vous relisez, vous décidez. Les limites font partie du programme.</p>
+          </li>
+          <li class="step">
+            <span class="step-num" aria-hidden="true">04</span>
+            <h3>Refaire le geste</h3>
+            <p>Dès le lendemain, seul, à votre bureau.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section--paper" aria-labelledby="titre-contact">
+      <div class="container">
+        <p class="label label--center">05 <span>Contact</span></p>
+        <h2 id="titre-contact" class="display display--center">Parlons de <em>votre équipe</em></h2>
+        <p class="section-intro section-intro--center">Une question, un programme à recevoir&nbsp;? Laissez-nous un mot, on s'occupe du reste.</p>
+
+        <div class="contact-card">
+          <div class="contact-aside">
+            <span class="contact-note" aria-hidden="true">Pense-bête</span>
+            <h3>Ce qui se passe ensuite</h3>
+            <ol class="next" role="list">
+              <li><strong>Vous décrivez votre besoin</strong>, en deux lignes ou en vingt.</li>
+              <li><strong>On vous répond dès demain</strong> avec un programme adapté.</li>
+              <li><strong>On ajuste ensemble</strong> le format, le rythme, les exemples.</li>
+            </ol>
+          </div>
+
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="field">
+              <label for="nom">Nom</label>
+              <input id="nom" name="nom" type="text" autocomplete="name" required aria-describedby="nom-erreur">
+              <p class="field-error" id="nom-erreur" aria-live="polite"></p>
+            </div>
+
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" autocomplete="email" inputmode="email" required aria-describedby="email-erreur">
+              <p class="field-error" id="email-erreur" aria-live="polite"></p>
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required aria-describedby="message-erreur"></textarea>
+              <p class="field-error" id="message-erreur" aria-live="polite"></p>
+            </div>
+
+            <fieldset class="field field-lang">
+              <legend>Programme en</legend>
+              <label><input type="radio" name="langue" value="fr" checked> Français</label>
+              <label lang="en"><input type="radio" name="langue" value="en"> English</label>
+            </fieldset>
+
+            <button class="pill pill--dark pill--block pill--lg" type="submit">Envoyer</button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <p class="disclaimer">Pense-bête est un organisme fictif créé pour un exercice. <span id="form-note">Aucun message n'est réellement envoyé.</span></p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-note logo-note--small" aria-hidden="true">Pense-bête</span>
+        <p class="mono">Applicable dès le lendemain.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Navigation de pied de page">
+        <a href="#la-pub">La pub</a>
+        <a href="#formations">Nos formations</a>
+        <a href="#contact">Contact</a>
+        <a href="#accueil">Retour en haut ↑</a>
+      </nav>
+    </div>
+    <div class="container footer-bottom">
+      <p>Pense-bête — organisme de formation fictif&nbsp;·&nbsp;2026</p>
+    </div>
+  </footer>
+</body>
+</html>
